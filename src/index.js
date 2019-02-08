@@ -16,7 +16,7 @@ const Root = () => (
         <React.Fragment>
             <Navbar />
             <Switch>
-                <Route component={App} path = {process.env.PUBLIC_URL + '/'} />
+                <Route component={App} exact path = {process.env.PUBLIC_URL + '/'} />
                 <Route component={Commands} path ='/commands' />
                 <Route component={GettingStarted} path ='/gettingstarted' />
                 <Route component={Expedition} path ='/expedition' />
