@@ -12,7 +12,7 @@ const Navbar = () => (
         padding={10}  
     >
     <Box>
-        <NavLink to='/'>
+        <NavLink to={process.env.PUBLIC_URL + '/'}>
             <Box
                 display='flex'
                 alignItems='center'
