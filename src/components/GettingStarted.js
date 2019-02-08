@@ -20,11 +20,12 @@ class GettingStarted extends Component {
     
     return (
     <Box 
-        id='app'
+        
         display='flex'
         alignItems='center'
         direction='column'
         margin={6}
+        justifyContent='center'
         >
    
         <Heading size='md'>
@@ -73,8 +74,6 @@ class GettingStarted extends Component {
             onMouseLeave={this.handleMouseLeave}
             >
         </Card>
-          <br />
-        <Text bold>*banquetTime is formatted by [minute][hour] in server time, so 00 18 = 6pm server time. Keep this in mind when setting your own banquetTime!</Text>
         <br />
         <hr width='50%'/>
         <Heading size='xs'>
@@ -125,12 +124,16 @@ class GettingStarted extends Component {
         EXAMPLES 
         </Heading>
             <br />
+        
         <Card
+        display='flex'
+        justifyContent='center'
+        alignItems='center'
             image={
-              <Box height={320} width={700}>
+              <Box height={250} width={600}>
               <Image
                 fit='contain'
-                alt='keys'
+                alt='expoCHannel example'
                 naturalHeight={1}
                 naturalWidth={1}
                 
@@ -141,15 +144,16 @@ class GettingStarted extends Component {
             onMouseEnter={this.handleMouseEnter}
             onMouseLeave={this.handleMouseLeave}
             >
-            <Box display='flex' justifyContent='center' alignItems='center'>
+           <Box display='flex' justifyContent='center'>
             <Text bold>If you want expedition reminders to send to a channel called 'expeditions'</Text>
             </Box>
         </Card>
+        
             <br />
             <hr width='25%'/>
         <Card
             image={
-              <Box height={320} width={700}>
+              <Box height={250} width={600}>
               <Image
                 fit='contain'
                 alt='keys'
@@ -172,7 +176,7 @@ class GettingStarted extends Component {
 
         <Card
             image={
-              <Box height={320} width={700}>
+              <Box height={250} width={600}>
               <Image
                 fit='contain'
                 alt='keys'
@@ -188,10 +192,59 @@ class GettingStarted extends Component {
             >
           <Box display='flex' justifyContent='center' alignItems='center' direction='column'>
             <Text bold>Changing banquet reminder time. </Text> 
-            <Text bold>banquetTime is formatted by [minute][hour] in server time, so 00 19 = 7pm server time. </Text>
+            <Text bold>banquetTime is formatted by [minute][hour] in server time </Text>
+            <Text bold>00 19 = 7:00pm server time</Text>
             </Box>
         </Card>
-        
+        <br />
+        <hr width='25%' />
+
+        <Card
+            
+            image={
+              <Box height={250} width={600}>
+              <Image
+                fit='contain'
+                alt='keys'
+                naturalHeight={1}
+                naturalWidth={1}
+                
+                src={require('./Pictures/adminRole example.png')}
+                /> 
+              
+              </Box> 
+            }
+            onMouseEnter={this.handleMouseEnter}
+            onMouseLeave={this.handleMouseLeave}
+            >
+          <Box display='flex' justifyContent='center' alignItems='center' direction='column'>
+            <Text bold>Changing adminRole from 'GM' to 'Slime Boss'.</Text>
+             
+           
+            </Box>
+        </Card>
+        <br />
+        <Card
+            
+            image={
+              <Box height={250} width={500}>
+              <Image
+                fit='contain'
+                alt='keys'
+                naturalHeight={1}
+                naturalWidth={1}
+                src={require('./Pictures/slimebossexample.png')}
+                /> 
+              
+              </Box> 
+            }
+            onMouseEnter={this.handleMouseEnter}
+            onMouseLeave={this.handleMouseLeave}
+            >
+            <Box display='flex' justifyContent='center' alignItems='center' direction='column'>
+            <Text bold>Now give yourself the role of 'Slime Boss' to use admin commands.</Text>
+            </Box>
+            </Card>
         <hr width='50%'/>
 
     </Box>

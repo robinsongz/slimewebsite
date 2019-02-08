@@ -5,8 +5,7 @@ const Footer = () => (
     <Box
         display='flex'
         alignItems='center'
-        height={50}
-        color='pine' 
+        color='pine'
     >
     <Box 
         padding={3} 

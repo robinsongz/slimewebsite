@@ -39,7 +39,7 @@ class Command extends Component {
         shape='roundedBottom'
         >
         <NavLink 
-          to='/configuration'>
+          to='/gettingstarted'>
           <Card
             image={
               <Box height={250} width={200}>

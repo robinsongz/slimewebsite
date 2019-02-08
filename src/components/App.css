@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html, body {
-    min-height: 100vh;
+    height: 100vh;
+}
+
+body {
     margin: 0;
     background-color:#3CB371;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a, a:link, a:visited {
@@ -10,9 +15,9 @@ a, a:link, a:visited {
 }
 
 #app {
-    min-height: 84vh;
+    min-height: 82.2vh;
 }
 
-.active {
-    color: blue;
+.r {
+    color: red;
 }

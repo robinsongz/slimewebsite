@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Box, Image, Heading, Button} from 'gestalt';
-import './App.css';
 
 class App extends Component {
   render() {
@@ -11,7 +10,7 @@ class App extends Component {
       justifyContent='center' 
       alignItems='center'
       direction='column'
-      padding={2}
+
       >
       <Box
         height={300}
