@@ -16,11 +16,11 @@ const Root = () => (
         <React.Fragment>
             <Navbar />
             <Switch>
-                <Route component={App} exact path='/' />
-                <Route component={Commands} path='/commands' />
-                <Route component={GettingStarted} path='/gettingstarted' />
-                <Route component={Expedition} path='/expedition' />
-                <Route component={Forge} path='/forge' />
+                <Route component={App} path = {process.env.PUBLIC_URL + '/'} />
+                <Route component={Commands} path ='/commands' />
+                <Route component={GettingStarted} path ='/gettingstarted' />
+                <Route component={Expedition} path ='/expedition' />
+                <Route component={Forge} path ='/forge' />
             </Switch>
             <Footer />
         </React.Fragment>
