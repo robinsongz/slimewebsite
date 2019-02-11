@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/css/1.beaab310.chunk.css"
   },
   {
-    "revision": "23186867b90831c6760b7a95730febae",
+    "revision": "63650aca3a617b9629e3d76104c2ce08",
     "url": "/slimewebsite/index.html"
   }
 ];
