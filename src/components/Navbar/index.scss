@@ -1,0 +1,29 @@
+.navbar-comp {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 10;
+  background: #0f743ccc;
+  padding: 20px 10px;
+  justify-content: space-between;
+  width: 100%;
+  .main-link {
+    font-size: 32px;
+    color: #ffffffdc;
+  }
+  
+  .navbar-links {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #dfdfdfdc;
+    > a {
+      padding: 0 3px;
+    }
+    .active-link {
+      color: white;
+    }
+  }
+}

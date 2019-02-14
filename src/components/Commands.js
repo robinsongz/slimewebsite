@@ -18,118 +18,112 @@ class Command extends Component {
   }
   render() {
     return (
-  
-    <Box 
-      id='app'
-      display='flex'
-      direction='row'
-      justifyContent='center'
-      alignItems='center'
-      >
-    
-    
-      {/* Configurations */}
-      
-      <Box 
-        width={210} 
-        paddingY={4} 
-        margin={10} 
-        display='flex' 
-        justifyContent='center'
-        shape='roundedBottom'
-        >
-        <NavLink 
-          to='/gettingstarted'>
-          <Card
-            image={
-              <Box height={250} width={200}>
-              <Image
-                fit='cover'
-                alt='configuration'
-                naturalHeight={1}
-                naturalWidth={1}
-                src={require('./Pictures/preferences_settings_tools-512.png')}
-                /> 
-              </Box> 
-            }
-            onMouseEnter={this.handleMouseEnter}
-            onMouseLeave={this.handleMouseLeave}>
-            
-          <Box display='flex' justifyContent='center'>
-          <Heading
-            size='xs'
-          >Configuration</Heading>
-          </Box>
-          </Card>
-       </NavLink>
-     </Box>
-     
-      {/* Expeditions */}
-     <Box 
-      width={210} 
-      paddingY={4} 
-      margin={10} 
-      display='flex' 
-      justifyContent='center'
-      shape='roundedBottom'
-      >
-      <NavLink to='/expedition'>
-       <Card
-        image={
-          <Box height={250} width={200}>
-          <Image
-            fit='cover'
-            alt='expedition'
-            naturalHeight={1}
-            naturalWidth={1}
-            src={require('./Pictures/zakum.png')}
-            /> 
-          </Box> 
-        }
-        onMouseEnter={this.handleMouseEnter}
-        onMouseLeave={this.handleMouseLeave}>
-        
-        <Box display='flex' justifyContent='center'>
-          <Heading
-            size='xs'
-          >
-          Expedition
-          </Heading>
-        </Box>
-       </Card>
-       </NavLink>
-     </Box>
 
-      {/* Forge */}
-      <Box 
-        width={210} 
-        paddingY={4} 
-        margin={10} 
-        display='flex' 
-        justifyContent='center'>
-        <NavLink to='/forge'>
-       <Card
-        image={
-        <Box height={250} width={200}>
-          <Image
-            fit='cover'
-            alt='forge'
-            naturalHeight={1}
-            naturalWidth={1}
-            src={require('./Pictures/jbossforge_icon_256px.png')}
-            /> 
-        </Box> 
-        }
-        onMouseEnter={this.handleMouseEnter}
-        onMouseLeave={this.handleMouseLeave}>
-        
-        <Box display='flex' justifyContent='center'>
-        <Heading size='xs'>Forge</Heading>
+      <div className="commands-comp">
+
+
+        {/* Configurations */}
+
+        <Box
+          width={210}
+          paddingY={4}
+          margin={10}
+          display='flex'
+          justifyContent='center'
+          shape='roundedBottom'
+        >
+          <NavLink
+            to='/gettingstarted'>
+            <Card
+              image={
+                <Box height={250} width={200}>
+                  <Image
+                    fit='cover'
+                    alt='configuration'
+                    naturalHeight={1}
+                    naturalWidth={1}
+                    src={require('./Pictures/preferences_settings_tools-512.png')}
+                  />
+                </Box>
+              }
+              onMouseEnter={this.handleMouseEnter}
+              onMouseLeave={this.handleMouseLeave}>
+
+              <Box display='flex' justifyContent='center'>
+                <Heading
+                  size='xs'
+                >Configuration</Heading>
+              </Box>
+            </Card>
+          </NavLink>
         </Box>
-       </Card>
-       </NavLink>
-     </Box>
-    </Box>
+
+        {/* Expeditions */}
+        <Box
+          width={210}
+          paddingY={4}
+          margin={10}
+          display='flex'
+          justifyContent='center'
+          shape='roundedBottom'
+        >
+          <NavLink to='/expedition'>
+            <Card
+              image={
+                <Box height={250} width={200}>
+                  <Image
+                    fit='cover'
+                    alt='expedition'
+                    naturalHeight={1}
+                    naturalWidth={1}
+                    src={require('./Pictures/zakum.png')}
+                  />
+                </Box>
+              }
+              onMouseEnter={this.handleMouseEnter}
+              onMouseLeave={this.handleMouseLeave}>
+
+              <Box display='flex' justifyContent='center'>
+                <Heading
+                  size='xs'
+                >
+                  Expedition
+          </Heading>
+              </Box>
+            </Card>
+          </NavLink>
+        </Box>
+
+        {/* Forge */}
+        <Box
+          width={210}
+          paddingY={4}
+          margin={10}
+          display='flex'
+          justifyContent='center'>
+          <NavLink to='/forge'>
+            <Card
+              image={
+                <Box height={250} width={200}>
+                  <Image
+                    fit='cover'
+                    alt='forge'
+                    naturalHeight={1}
+                    naturalWidth={1}
+                    src={require('./Pictures/jbossforge_icon_256px.png')}
+                  />
+                </Box>
+              }
+              onMouseEnter={this.handleMouseEnter}
+              onMouseLeave={this.handleMouseLeave}>
+
+              <Box display='flex' justifyContent='center'>
+                <Heading size='xs'>Forge</Heading>
+              </Box>
+            </Card>
+          </NavLink>
+        </Box>
+      </div>
     )
   }
 }
