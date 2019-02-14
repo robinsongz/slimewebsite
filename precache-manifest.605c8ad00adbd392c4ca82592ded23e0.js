@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/banquetTime example.893190d3.png"
   },
   {
-    "revision": "7c300c1b759cb2acb0bb",
-    "url": "/slimewebsite/static/css/main.4e06b40d.chunk.css"
+    "revision": "7e98089f573bd33f6935",
+    "url": "/slimewebsite/static/css/main.7f8b8a35.chunk.css"
   },
   {
     "revision": "5bb20952d8c6b5049e83ddc2b276000b",
     "url": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png"
   },
   {
-    "revision": "dcc2cbb75df50841ede1",
-    "url": "/slimewebsite/static/js/1.dcc2cbb7.chunk.js"
+    "revision": "a16a7362745ac85ee994",
+    "url": "/slimewebsite/static/js/1.a16a7362.chunk.js"
   },
   {
     "revision": "23250fbd6ebb4b30959b",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
-    "revision": "7c300c1b759cb2acb0bb",
-    "url": "/slimewebsite/static/js/main.7c300c1b.chunk.js"
+    "revision": "7e98089f573bd33f6935",
+    "url": "/slimewebsite/static/js/main.7e98089f.chunk.js"
   },
   {
     "revision": "ab399aa041984d515acf070dc6cdaf89",
@@ -112,11 +112,11 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/jewel example.358cbda5.png"
   },
   {
-    "revision": "dcc2cbb75df50841ede1",
-    "url": "/slimewebsite/static/css/1.beaab310.chunk.css"
+    "revision": "a16a7362745ac85ee994",
+    "url": "/slimewebsite/static/css/1.e2bf13bc.chunk.css"
   },
   {
-    "revision": "63650aca3a617b9629e3d76104c2ce08",
+    "revision": "5ad5940094fbfd1f40fa41373cac95d1",
     "url": "/slimewebsite/index.html"
   }
 ];
