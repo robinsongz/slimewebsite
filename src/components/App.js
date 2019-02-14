@@ -1,50 +1,38 @@
 import React, { Component } from 'react';
-import { Box, Image, Heading, Button} from 'gestalt';
-
+import { Button } from 'gestalt';
 class App extends Component {
   render() {
     return (
-     <Box 
-      id='app'
-      display='flex' 
-      justifyContent='center' 
-      alignItems='center'
-      direction='column'
-
-      >
-      <Box
-        height={300}
-        width={400}>
-       <Image
-          alt='slime logo'
-          naturalHeight={1}
-          naturalWidth={1}
-          src={require('./Pictures/king_slime_solo.png')} />
-      </Box>
-      <Box padding={3}>
-        <Heading size='sm' color='white'>
-          A DISCORD BOT FOR MAPLESTORY M
-        </Heading>
-      </Box>
-        <Box padding={2}>
-        <a
-          href='https://discordapp.com/oauth2/authorize?client_id=502644283329871872&scope=bot'
-          target='blank'
-        >
-          <Button 
-            text='Invite Now'
-            accessibilityLabel='Invite Bot To Server'
-            color='transparent'
-            size='lg'
-            type='button'
+      <div className="app">
+        <div className="slime-img">
+          <img
+            alt='slime logo'
+            src={require('./Pictures/king_slime_solo.png')} />
+        </div>
+        <div>
+          <h1 className="slime-heading">
+            A DISCORD BOT FOR MAPLESTORY M
+        </h1>
+        </div>
+        <div>
+          <a
+            href='https://discordapp.com/oauth2/authorize?client_id=502644283329871872&scope=bot'
+            target='blank'
+          >
+            <Button
+              text='Invite Now'
+              accessibilityLabel='Invite Bot To Server'
+              color='transparent'
+              size='lg'
+              type='button'
             >
-          </Button>
-         </a>
-        
-       
-        </Box>
-     </Box>
-   
+            </Button>
+          </a>
+
+
+        </div>
+      </div>
+
     )
   }
 }

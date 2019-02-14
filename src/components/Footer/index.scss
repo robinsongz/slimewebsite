@@ -1,0 +1,22 @@
+.footer-comp {
+  display: flex;
+  background: #0f743ccc;
+  padding: 20px 10px;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+
+  .copyright {
+    font-size: 16px;
+  }
+  
+  .footer-links {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #dfdfdfdc;
+    > a {
+      padding: 0 3px;
+    }
+  }
+}
