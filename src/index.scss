@@ -68,6 +68,12 @@ img {
   justify-content: space-between;
 }
 
+.app-content {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
 .commands-comp {
     display: flex;
     justify-content: center;
