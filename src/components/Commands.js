@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Box, Image, Heading, Card } from 'gestalt';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Command extends Component {
   constructor(props) {
@@ -24,15 +24,8 @@ class Command extends Component {
 
         {/* Configurations */}
 
-        <Box
-          width={210}
-          paddingY={4}
-          margin={10}
-          display='flex'
-          justifyContent='center'
-          shape='roundedBottom'
-        >
-          <NavLink
+        <Box>
+          <Link
             to='/gettingstarted'>
             <Card
               image={
@@ -55,7 +48,7 @@ class Command extends Component {
                 >Configuration</Heading>
               </Box>
             </Card>
-          </NavLink>
+          </Link>
         </Box>
 
         {/* Expeditions */}
@@ -67,7 +60,7 @@ class Command extends Component {
           justifyContent='center'
           shape='roundedBottom'
         >
-          <NavLink to='/expedition'>
+          <Link to='/expedition'>
             <Card
               image={
                 <Box height={250} width={200}>
@@ -91,7 +84,7 @@ class Command extends Component {
           </Heading>
               </Box>
             </Card>
-          </NavLink>
+          </Link>
         </Box>
 
         {/* Forge */}
@@ -101,7 +94,7 @@ class Command extends Component {
           margin={10}
           display='flex'
           justifyContent='center'>
-          <NavLink to='/forge'>
+          <Link to='/forge'>
             <Card
               image={
                 <Box height={250} width={200}>
@@ -121,7 +114,7 @@ class Command extends Component {
                 <Heading size='xs'>Forge</Heading>
               </Box>
             </Card>
-          </NavLink>
+          </Link>
         </Box>
       </div>
     )

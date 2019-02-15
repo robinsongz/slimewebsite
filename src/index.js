@@ -18,11 +18,11 @@ const Root = () => (
       <Navbar />
       <div className="app-content">
         <Switch>
-          <Route component={App} exact path={process.env.PUBLIC_URL + '/'} />
-          <Route component={Commands} path='/commands' />
-          <Route component={GettingStarted} path='/gettingstarted' />
-          <Route component={Expedition} path='/expedition' />
-          <Route component={Forge} path='/forge' />
+          <Route component={App} exact path={'/'} />
+          <Route component={Commands} path={'/commands'} />
+          <Route component={GettingStarted} path={'/gettingstarted'} />
+          <Route component={Expedition} path={'/expedition'} />
+          <Route component={Forge} path={'/forge'} />
         </Switch>
       </div>
       <Footer />

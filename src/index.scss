@@ -70,7 +70,7 @@ img {
 .app-content {
   width: 100%;
   overflow: auto;
-  text-align: center;
+  -webkit-overflow-scrolling: touch;
   margin-bottom: 20px;
 }
 
