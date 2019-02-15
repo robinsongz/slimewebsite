@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/banquetTime example.893190d3.png"
   },
   {
-    "revision": "7e98089f573bd33f6935",
-    "url": "/slimewebsite/static/css/main.7f8b8a35.chunk.css"
+    "revision": "bcc661ae0a89fe3b0502",
+    "url": "/slimewebsite/static/css/main.8cc6affe.chunk.css"
   },
   {
     "revision": "5bb20952d8c6b5049e83ddc2b276000b",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
-    "revision": "7e98089f573bd33f6935",
-    "url": "/slimewebsite/static/js/main.7e98089f.chunk.js"
+    "revision": "bcc661ae0a89fe3b0502",
+    "url": "/slimewebsite/static/js/main.bcc661ae.chunk.js"
   },
   {
     "revision": "ab399aa041984d515acf070dc6cdaf89",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/css/1.e2bf13bc.chunk.css"
   },
   {
-    "revision": "5ad5940094fbfd1f40fa41373cac95d1",
+    "revision": "d8772c4ae3e7d7eb388ed8c57944b933",
     "url": "/slimewebsite/index.html"
   }
 ];

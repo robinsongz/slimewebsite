@@ -1,7 +1,7 @@
 {
-  "main.css": "/slimewebsite/static/css/main.7f8b8a35.chunk.css",
-  "main.js": "/slimewebsite/static/js/main.7e98089f.chunk.js",
-  "main.js.map": "/slimewebsite/static/js/main.7e98089f.chunk.js.map",
+  "main.css": "/slimewebsite/static/css/main.8cc6affe.chunk.css",
+  "main.js": "/slimewebsite/static/js/main.bcc661ae.chunk.js",
+  "main.js.map": "/slimewebsite/static/js/main.bcc661ae.chunk.js.map",
   "static/css/1.e2bf13bc.chunk.css": "/slimewebsite/static/css/1.e2bf13bc.chunk.css",
   "static/js/1.a16a7362.chunk.js": "/slimewebsite/static/js/1.a16a7362.chunk.js",
   "static/js/1.a16a7362.chunk.js.map": "/slimewebsite/static/js/1.a16a7362.chunk.js.map",
@@ -31,9 +31,9 @@
   "static/media/fusing data example.png": "/slimewebsite/static/media/fusing data example.42c8f103.png",
   "static/media/jewel example.png": "/slimewebsite/static/media/jewel example.358cbda5.png",
   "static/media/jewel setbonus exmaple.png": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png",
+  "static/css/main.8cc6affe.chunk.css.map": "/slimewebsite/static/css/main.8cc6affe.chunk.css.map",
   "static/css/1.e2bf13bc.chunk.css.map": "/slimewebsite/static/css/1.e2bf13bc.chunk.css.map",
-  "static/css/main.7f8b8a35.chunk.css.map": "/slimewebsite/static/css/main.7f8b8a35.chunk.css.map",
   "index.html": "/slimewebsite/index.html",
-  "precache-manifest.605c8ad00adbd392c4ca82592ded23e0.js": "/slimewebsite/precache-manifest.605c8ad00adbd392c4ca82592ded23e0.js",
+  "precache-manifest.1b1703062e08a07ca82eb92e84073a1d.js": "/slimewebsite/precache-manifest.1b1703062e08a07ca82eb92e84073a1d.js",
   "service-worker.js": "/slimewebsite/service-worker.js"
 }
