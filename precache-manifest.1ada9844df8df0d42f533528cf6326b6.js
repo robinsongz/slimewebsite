@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "ab399aa041984d515acf070dc6cdaf89",
-    "url": "/slimewebsite/static/media/adminRole example.ab399aa0.png"
+    "revision": "ace3aecc83dd27a5485c1b83b79355cd",
+    "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
-    "revision": "88552de25e17aa8d2561",
-    "url": "/slimewebsite/static/css/main.f93d2f24.chunk.css"
+    "revision": "af96129aa23f99c3aec8",
+    "url": "/slimewebsite/static/css/main.5d1272d8.chunk.css"
   },
   {
-    "revision": "909d60cb6fdc5c1ab293",
-    "url": "/slimewebsite/static/js/1.909d60cb.chunk.js"
+    "revision": "477898744faf5b0504b2",
+    "url": "/slimewebsite/static/js/1.47789874.chunk.js"
   },
   {
     "revision": "23250fbd6ebb4b30959b",
     "url": "/slimewebsite/static/js/runtime~main.23250fbd.js"
+  },
+  {
+    "revision": "0fac2bfdd8b01665c956786468701b30",
+    "url": "/slimewebsite/static/media/checkin example.0fac2bfd.png"
   },
   {
     "revision": "4a235e8439e0c0dea155a7e016d1cd6f",
@@ -52,28 +56,20 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/expochannel example.8dc506d6.png"
   },
   {
-    "revision": "ace3aecc83dd27a5485c1b83b79355cd",
-    "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
+    "revision": "af96129aa23f99c3aec8",
+    "url": "/slimewebsite/static/js/main.af96129a.chunk.js"
   },
   {
     "revision": "893190d333394a8ed1553efcb31098eb",
     "url": "/slimewebsite/static/media/banquetTime example.893190d3.png"
   },
   {
-    "revision": "88552de25e17aa8d2561",
-    "url": "/slimewebsite/static/js/main.88552de2.chunk.js"
+    "revision": "ab399aa041984d515acf070dc6cdaf89",
+    "url": "/slimewebsite/static/media/adminRole example.ab399aa0.png"
   },
   {
     "revision": "d13936322876a227825f9d6d8a340f74",
     "url": "/slimewebsite/static/media/slimebossexample.d1393632.png"
-  },
-  {
-    "revision": "21266d8ef8d147ea4d360982df19f812",
-    "url": "/slimewebsite/static/media/check in channel example.21266d8e.png"
-  },
-  {
-    "revision": "0fac2bfdd8b01665c956786468701b30",
-    "url": "/slimewebsite/static/media/checkin example.0fac2bfd.png"
   },
   {
     "revision": "df73a5e153a714274640f3898dc61437",
@@ -116,7 +112,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png"
   },
   {
-    "revision": "bb67079746ec5cad4b1341f7fddb933d",
+    "revision": "32fff2c5ef92fcddec51a125de413751",
     "url": "/slimewebsite/index.html"
   }
 ];
