@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'gestalt';
 class App extends Component {
   render() {
     return (
@@ -18,15 +17,9 @@ class App extends Component {
           <a
             href='https://discordapp.com/oauth2/authorize?client_id=502644283329871872&scope=bot'
             target='blank'
+            className="discord-link"
           >
-            <Button
-              text='Invite Now'
-              accessibilityLabel='Invite Bot To Server'
-              color='transparent'
-              size='lg'
-              type='button'
-            >
-            </Button>
+            Invite Now
           </a>
 
 

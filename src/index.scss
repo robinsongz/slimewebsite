@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Hind|Nanum+Gothic|Oswald|Raleway');
-
+@import './variables.scss';
 html, body {
     height: 100vh;
     min-width: 320px;
@@ -7,7 +7,7 @@ html, body {
 
 body {
     margin: 0;
-    background-color:#3cb372cc;
+    background-color:#52ad7bbb;
     font-family: 'Raleway', sans-serif;
 }
 a, a:link, a:visited, a:focus {
@@ -16,15 +16,11 @@ a, a:link, a:visited, a:focus {
     color: inherit;
 }
 
-button, a {
+button, a, div {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-    color: #ffffff;
-}
-
-div, h4 {
+div, h2, h3, h4, h5, h6 {
     color: inherit;
     padding: 0;
     margin: 0;
@@ -70,16 +66,17 @@ img {
 .app-content {
   width: 100%;
   overflow: auto;
-  text-align: center;
-  margin-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 0;
 }
 
-.commands-comp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  @media only screen and (max-width: 868px) {
-    flex-direction: column;
-  }
+.discord-link {
+    padding: 10px 20px;
+    color: #2C2F33;
+    border-radius: 5px;
+    border: 1px solid;
+    &:hover {
+        background: #7289DA;
+        color: white;
+    }
 }
