@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
-    "revision": "af96129aa23f99c3aec8",
+    "revision": "b6b0255fbc03564dd11f",
     "url": "/slimewebsite/static/css/main.5d1272d8.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/expochannel example.8dc506d6.png"
   },
   {
-    "revision": "af96129aa23f99c3aec8",
-    "url": "/slimewebsite/static/js/main.af96129a.chunk.js"
+    "revision": "b6b0255fbc03564dd11f",
+    "url": "/slimewebsite/static/js/main.b6b0255f.chunk.js"
   },
   {
     "revision": "893190d333394a8ed1553efcb31098eb",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png"
   },
   {
-    "revision": "32fff2c5ef92fcddec51a125de413751",
+    "revision": "49fd8554de633c0789db7ef2889fceb5",
     "url": "/slimewebsite/index.html"
   }
 ];
