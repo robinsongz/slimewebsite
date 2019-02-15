@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar-comp">
       <div className="main-link">
         <NavLink to='/'>
-          <h4>slimeBot</h4>
+          <h4>SLIME BOT</h4>
         </NavLink>
       </div>
       <div className="navbar-links">
