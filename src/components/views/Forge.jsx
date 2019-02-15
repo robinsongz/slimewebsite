@@ -15,10 +15,11 @@ class Forge extends Component {
           !fuse [Fuse Item] [Fuse Material] [Fuse Material Cost]
         </h3>
 
-        <div className="section">
-          <div>
+        <div className="description">
+          
             Fusing Cost Calculator
           </div>
+        <div className="picture">
           <img alt='fusing cost calculator' src={require('../Pictures/fusing cost calc example.png')} />
         </div>
         
@@ -26,10 +27,11 @@ class Forge extends Component {
           !fuse treasure
         </h3>
 
-        <div className="section">
-          <div>
+        <div className="description">
+          
             Treasure Pulls Fusing Cost
           </div>
+          <div className="picture">
           <img alt='treasure pulls' src={require('../Pictures/treasure example.png')} />
         </div>
         
@@ -37,10 +39,11 @@ class Forge extends Component {
           !fuse data
         </h3>
 
-        <div className="section">
-          <div>
+        <div className="description">
+          
             General Fusing Data
           </div>
+          <div className="picture">
           <img alt='fusing data' src={require('../Pictures/fusing data example.png')} />
         </div>
         
@@ -48,10 +51,11 @@ class Forge extends Component {
           !jewel [color]
         </h3>
 
-        <div className="section">
-          <div>
+        <div className="description">
+          
             Jewel Data
           </div>
+          <div className="picture">
           <img alt='jewel example' src={require('../Pictures/jewel example.png')} />
         </div>
 
@@ -60,10 +64,11 @@ class Forge extends Component {
           !jewel [color] setbonus
         </h3>
 
-        <div className="section">
-          <div>
+        <div className="description">
+          
             Jewel Set Bonus Data
           </div>
+          <div className="picture">
           <img alt='team add' src={require('../Pictures/jewel setbonus exmaple.png')}/>
         </div>
 

@@ -1,27 +1,37 @@
 @import '../../variables';
 
 .view-comp {
+  display: grid;
+  justify-content: center;
   > h2 {
+    display: flex;
+    justify-content: center;
     padding: 0 $side-padding;
     letter-spacing: 3px;
+    font-size: 40px;
+    margin: 10px;
   }
   > h3 {
+    display: flex;
+    justify-content: center;
     background: $gray-xmedium;
     padding: $side-padding;
-    margin: 5px 0;
+    margin: 10px 0
   }
-  .section {
-    padding: 5px $side-padding;
+  .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px $side-padding;
     max-width: 100%;
-    img {
-      padding: 5px 0;
-    }
-    > div {
-      padding-bottom: 5px;
-      color: $sub-text-color;
-    }
-    .bold-alert {
-      font-weight: 700;
-    }
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .picture {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
   }
 }
