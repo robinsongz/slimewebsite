@@ -68,12 +68,19 @@ img {
   justify-content: space-between;
 }
 
+.app-content {
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .commands-comp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    @media only screen and (max-width: 868px) {
-        flex-direction: column;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @media only screen and (max-width: 868px) {
+    flex-direction: column;
+  }
 }

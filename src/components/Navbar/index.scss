@@ -19,11 +19,15 @@
     display: flex;
     align-items: center;
     color: #dfdfdfdc;
-    > a {
-      padding: 0 3px;
+    .nav-link {
+      padding-left: 18px;
+      text-align: right;
     }
     .active-link {
       color: white;
+    }
+    @media only screen and (max-width:768px) {
+      font-size: 16px;
     }
   }
 }
