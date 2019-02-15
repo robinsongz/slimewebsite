@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "893190d333394a8ed1553efcb31098eb",
-    "url": "/slimewebsite/static/media/banquetTime example.893190d3.png"
+    "revision": "ab399aa041984d515acf070dc6cdaf89",
+    "url": "/slimewebsite/static/media/adminRole example.ab399aa0.png"
   },
   {
-    "revision": "4c3fe4ce656e696cee08",
-    "url": "/slimewebsite/static/css/main.faeb02fc.chunk.css"
+    "revision": "88552de25e17aa8d2561",
+    "url": "/slimewebsite/static/css/main.f93d2f24.chunk.css"
   },
   {
-    "revision": "2321e1011e01009ea4ab",
-    "url": "/slimewebsite/static/js/1.2321e101.chunk.js"
+    "revision": "909d60cb6fdc5c1ab293",
+    "url": "/slimewebsite/static/js/1.909d60cb.chunk.js"
   },
   {
     "revision": "23250fbd6ebb4b30959b",
@@ -56,16 +56,20 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
-    "revision": "4c3fe4ce656e696cee08",
-    "url": "/slimewebsite/static/js/main.4c3fe4ce.chunk.js"
+    "revision": "893190d333394a8ed1553efcb31098eb",
+    "url": "/slimewebsite/static/media/banquetTime example.893190d3.png"
   },
   {
-    "revision": "ab399aa041984d515acf070dc6cdaf89",
-    "url": "/slimewebsite/static/media/adminRole example.ab399aa0.png"
+    "revision": "88552de25e17aa8d2561",
+    "url": "/slimewebsite/static/js/main.88552de2.chunk.js"
   },
   {
     "revision": "d13936322876a227825f9d6d8a340f74",
     "url": "/slimewebsite/static/media/slimebossexample.d1393632.png"
+  },
+  {
+    "revision": "21266d8ef8d147ea4d360982df19f812",
+    "url": "/slimewebsite/static/media/check in channel example.21266d8e.png"
   },
   {
     "revision": "0fac2bfdd8b01665c956786468701b30",
@@ -112,7 +116,7 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png"
   },
   {
-    "revision": "d86d95aa2f45c5cbe2d15c6140b345b3",
+    "revision": "bb67079746ec5cad4b1341f7fddb933d",
     "url": "/slimewebsite/index.html"
   }
 ];
