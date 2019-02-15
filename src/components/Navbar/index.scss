@@ -1,3 +1,5 @@
+@import '../../variables';
+
 .navbar-comp {
   position: sticky;
   position: -webkit-sticky;
@@ -5,32 +7,35 @@
   left: 0;
   display: flex;
   z-index: 10;
-  background: #0f743ccc;
-  padding: 20px 10px;
+  background: $green-xdark;
+  padding: $nav-padding $side-padding;
   justify-content: space-between;
-  width: 100%;
+  box-shadow: 0 2px 6px $green-dark;
   .main-link {
     font-size: 50px;
-    color: #ffffffdc;
+    color: $gray-xlight;
     font-weight: bold;
-    margin-left: 20px;
+    @media only screen and (max-width:768px) {
+      font-size: 22px;
+    }
   }
   
   .navbar-links {
     font-size: 20px;
     display: flex;
     align-items: center;
-    color: #dfdfdfdc;
-    margin-right: 20px;
+    color: $gray-xmedium;
     .nav-link {
       padding-left: 18px;
       text-align: right;
     }
     .active-link {
-      color: white;
+      .nav-link {
+        color: white;
+      }
     }
     @media only screen and (max-width:768px) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 }
