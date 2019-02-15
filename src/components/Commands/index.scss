@@ -3,6 +3,12 @@
 
 .commands-comp {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
   .command-link-card {
     padding: $side-padding;
     border-radius: 5px;
