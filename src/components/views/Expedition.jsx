@@ -6,7 +6,9 @@ class Expedition extends Component {
   render() {
 
     return (
+      
       <div className="expedition view-comp">
+
 
         <h2>
           Organizing Expeditions
@@ -23,7 +25,7 @@ class Expedition extends Component {
           <img alt="checkInChannel" src={require('../Pictures/checkin example.png')} />
         </div>
 
-        
+
         <h3>
           !team checkin
         </h3>

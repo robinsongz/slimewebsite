@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/index'
+import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 import Routes from './Routes';
 import * as serviceWorker from './serviceWorker';
@@ -18,6 +18,7 @@ const Root = () => (
           )} />
         </Switch>
       </div>
+      
       <Footer />
     </div>
   </Router>
