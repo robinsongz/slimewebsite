@@ -1,34 +1,48 @@
 @import '../../variables';
 
 .view-comp {
+  padding-top: $top-padding;
   > h2 {
-    padding: 0 $side-padding;
+    padding: $top-padding $side-padding;
     letter-spacing: 3px;
   }
   > h3 {
-    background: $gray-xmedium;
+    background: $discord-greyple;
     padding: $side-padding;
+    letter-spacing: 1px;
     margin: 5px 0;
   }
+  .note {
+    border: 1px solid black;
+    width: 80%;
+    padding: $top-padding $side-padding;
+    margin: $top-padding 0;
+    background: $discord-black;
+    max-width: 600px;
+    @media #{$max-medium} {
+      width: 100%;
+    }
+  }
   .section {
-    padding: 5px $side-padding;
+    padding: 0 $side-padding;
     max-width: 100%;
-    img {
-      padding: 5px 0;
-      width: 45%;
+    img {      
+      margin: 5px 0;
+      width: 80%;
       min-width: 400px;
+      max-width: 600px;
+      &.img-small {
+        width: 40%;
+        max-width: 300px;
+      }
     }
     > div {
-      padding-bottom: 5px;
       color: $sub-text-color;
     }
-    .bold-alert {
-      font-weight: 700;
-    }
-    @media only screen and (max-width:768px) {
+    @media #{$max-medium} {
       img {
         width: 100%;
-        min-width: 0;
+        min-width: 250px;
       }
     }
   }

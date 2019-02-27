@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+.documentation-comp {
+  color: white;
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  position: relative;
+  @media #{$max-medium} {
+    grid-template-columns: 40px 1fr;
+  }
+  .sidenav-wrapper {
+    height: 100%;
+    background: $discord-black;
+  }
+  .documentation-content {
+    background: $discord-dark;
+    height: 100%;
+  }
+}

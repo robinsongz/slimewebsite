@@ -15,7 +15,7 @@ class Forge extends Component {
           !fuse [Fuse Item] [Fuse Material] [Fuse Material Cost]
         </h3>
         <div className="section">
-          <div className="description">
+          <div className="note">
             
             Fusing Cost Calculator
           </div>
@@ -28,7 +28,7 @@ class Forge extends Component {
           !fuse treasure
         </h3>
         <div className="section">
-          <div className="description">
+          <div className="note">
             Treasure Pulls Fusing Cost
           </div>
           <div className="picture">
@@ -40,7 +40,7 @@ class Forge extends Component {
           !fuse data
         </h3>
         <div className="section">
-          <div className="description">      
+          <div className="note">      
             General Fusing Data
           </div>
           <div className="picture">
@@ -52,7 +52,7 @@ class Forge extends Component {
           !jewel [color]
         </h3>
         <div className="section">   
-          <div className="description">
+          <div className="note">
           
             Jewel Data
           </div>
@@ -67,7 +67,7 @@ class Forge extends Component {
         </h3>
 
         <div className="section">
-          <div className="description">
+          <div className="note">
             
             Jewel Set Bonus Data
           </div>

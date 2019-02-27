@@ -7,7 +7,7 @@
   left: 0;
   display: flex;
   z-index: 10;
-  background: $green-xdark;
+  background: $green-dark;
   padding: $nav-padding $side-padding;
   justify-content: space-between;
   box-shadow: 0 2px 6px $green-dark;
@@ -15,7 +15,7 @@
     font-size: 50px;
     color: $gray-xlight;
     font-weight: bold;
-    @media only screen and (max-width:768px) {
+    @media #{$max-medium} {
       font-size: 22px;
     }
   }
@@ -34,7 +34,7 @@
         color: white;
       }
     }
-    @media only screen and (max-width:768px) {
+    @media #{$max-medium} {
       font-size: 14px;
     }
   }
