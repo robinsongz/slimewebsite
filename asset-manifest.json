@@ -1,7 +1,7 @@
 {
   "main.css": "/slimewebsite/static/css/main.bc2225ff.chunk.css",
-  "main.js": "/slimewebsite/static/js/main.534dfd97.chunk.js",
-  "main.js.map": "/slimewebsite/static/js/main.534dfd97.chunk.js.map",
+  "main.js": "/slimewebsite/static/js/main.beb32095.chunk.js",
+  "main.js.map": "/slimewebsite/static/js/main.beb32095.chunk.js.map",
   "static/js/1.5540df14.chunk.js": "/slimewebsite/static/js/1.5540df14.chunk.js",
   "static/js/1.5540df14.chunk.js.map": "/slimewebsite/static/js/1.5540df14.chunk.js.map",
   "runtime~main.js": "/slimewebsite/static/js/runtime~main.23250fbd.js",
@@ -32,6 +32,6 @@
   "static/media/jbossforge_icon_256px.png": "/slimewebsite/static/media/jbossforge_icon_256px.4b7521bb.png",
   "static/css/main.bc2225ff.chunk.css.map": "/slimewebsite/static/css/main.bc2225ff.chunk.css.map",
   "index.html": "/slimewebsite/index.html",
-  "precache-manifest.97d2dd4b2abc6a52644d5932545766e2.js": "/slimewebsite/precache-manifest.97d2dd4b2abc6a52644d5932545766e2.js",
+  "precache-manifest.3745304e4cef7172217e27c901314086.js": "/slimewebsite/precache-manifest.3745304e4cef7172217e27c901314086.js",
   "service-worker.js": "/slimewebsite/service-worker.js"
 }
