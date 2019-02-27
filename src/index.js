@@ -14,7 +14,7 @@ const Root = () => (
       <div className="app-content">
         <Switch>
           <Route path={process.env.PUBLIC_URL} render={({ match }) => (
-            <Routes match={match} />
+            <Routes pathPrefix={match.url} />
           )} />
         </Switch>
       </div>
