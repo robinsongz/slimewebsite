@@ -13,7 +13,7 @@ const Root = () => (
       <Navbar />
       <div className="app-content">
         <Switch>
-          <Route path={process.env.PUBLIC_URL} render={({ match }) => (
+          <Route path="/" render={({ match }) => (
             <Routes pathPrefix={match.url} />
           )} />
         </Switch>
