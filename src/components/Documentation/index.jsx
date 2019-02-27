@@ -21,8 +21,7 @@ export class Documentation extends Component {
     return (
       <div className="documentation-comp">
         <div className="sidenav-wrapper">
-          <Sidenav 
-            pathPrefix="documentation" />
+          <Sidenav />
         </div>
         <div className="documentation-content">
           <Switch>
