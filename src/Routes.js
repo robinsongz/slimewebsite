@@ -8,9 +8,7 @@ const Routes = () => {
   return (
     <Switch>
       <Route component={App} exact path="/" />
-      <Route path="/documentation" render={({ match }) => (
-        <Documentation pathPrefix={match.url} />
-      )} />
+      <Route path="/documentation" component={Documentation} />
     </Switch >
   )
 }
