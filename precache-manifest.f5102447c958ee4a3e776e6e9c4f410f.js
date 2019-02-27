@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ace3aecc83dd27a5485c1b83b79355cd",
-    "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
+    "revision": "d13936322876a227825f9d6d8a340f74",
+    "url": "/slimewebsite/static/media/slimebossexample.d1393632.png"
   },
   {
-    "revision": "b6b0255fbc03564dd11f",
-    "url": "/slimewebsite/static/css/main.5d1272d8.chunk.css"
+    "revision": "6f8f1dd1b5406083e679",
+    "url": "/slimewebsite/static/css/main.bc2225ff.chunk.css"
   },
   {
-    "revision": "477898744faf5b0504b2",
-    "url": "/slimewebsite/static/js/1.47789874.chunk.js"
+    "revision": "5540df14ed53f1e6afd1",
+    "url": "/slimewebsite/static/js/1.5540df14.chunk.js"
   },
   {
     "revision": "23250fbd6ebb4b30959b",
@@ -22,18 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "4a235e8439e0c0dea155a7e016d1cd6f",
     "url": "/slimewebsite/static/media/king_slime_solo.4a235e84.png"
-  },
-  {
-    "revision": "ca9f3afba901cc6772b215daf690b42e",
-    "url": "/slimewebsite/static/media/preferences_settings_tools-512.ca9f3afb.png"
-  },
-  {
-    "revision": "71908c09a47a2f66e40fc4cf3c392e70",
-    "url": "/slimewebsite/static/media/zakum.71908c09.png"
-  },
-  {
-    "revision": "4b7521bbf03e9eae973c8a2a0f0193c0",
-    "url": "/slimewebsite/static/media/jbossforge_icon_256px.4b7521bb.png"
   },
   {
     "revision": "08236a2e93fc63cc1e3d66456a5ad19c",
@@ -56,8 +44,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/expochannel example.8dc506d6.png"
   },
   {
-    "revision": "b6b0255fbc03564dd11f",
-    "url": "/slimewebsite/static/js/main.b6b0255f.chunk.js"
+    "revision": "ace3aecc83dd27a5485c1b83b79355cd",
+    "url": "/slimewebsite/static/media/guild fort example.ace3aecc.png"
   },
   {
     "revision": "893190d333394a8ed1553efcb31098eb",
@@ -68,8 +56,8 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/adminRole example.ab399aa0.png"
   },
   {
-    "revision": "d13936322876a227825f9d6d8a340f74",
-    "url": "/slimewebsite/static/media/slimebossexample.d1393632.png"
+    "revision": "6f8f1dd1b5406083e679",
+    "url": "/slimewebsite/static/js/main.6f8f1dd1.chunk.js"
   },
   {
     "revision": "df73a5e153a714274640f3898dc61437",
@@ -112,7 +100,19 @@ self.__precacheManifest = [
     "url": "/slimewebsite/static/media/jewel setbonus exmaple.5bb20952.png"
   },
   {
-    "revision": "49fd8554de633c0789db7ef2889fceb5",
+    "revision": "ca9f3afba901cc6772b215daf690b42e",
+    "url": "/slimewebsite/static/media/preferences_settings_tools-512.ca9f3afb.png"
+  },
+  {
+    "revision": "71908c09a47a2f66e40fc4cf3c392e70",
+    "url": "/slimewebsite/static/media/zakum.71908c09.png"
+  },
+  {
+    "revision": "4b7521bbf03e9eae973c8a2a0f0193c0",
+    "url": "/slimewebsite/static/media/jbossforge_icon_256px.4b7521bb.png"
+  },
+  {
+    "revision": "75501a5c16961bc248d257648a95723d",
     "url": "/slimewebsite/index.html"
   }
 ];
