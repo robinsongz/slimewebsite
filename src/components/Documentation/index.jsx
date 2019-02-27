@@ -18,6 +18,9 @@ export class Documentation extends Component {
     }
   }
   render() {
+    const {
+      pathPrefix,
+    } = this.props;
     return (
       <div className="documentation-comp">
         <div className="sidenav-wrapper">
@@ -25,11 +28,11 @@ export class Documentation extends Component {
         </div>
         <div className="documentation-content">
           <Switch>
-            <Route path="/documentation/gettingstarted"
+            <Route path={`${pathPrefix}/gettingstarted`}
               component={GettingStarted} />
-           <Route path="/documentation/expedition"
+           <Route path={`${pathPrefix}/expedition`}
               component={Expedition} />
-           <Route path="/documentation/forge"
+           <Route path={`${pathPrefix}/forge`}
               component={Forge} />
           </Switch>
         </div>
