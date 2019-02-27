@@ -3,10 +3,11 @@
 
 .footer-comp {
   display: flex;
-  background: $green-xdark;
+  background: $green-dark;
   padding: $nav-padding $side-padding;
   justify-content: space-between;
   color: white;
+  z-index: 10;
 
   .copyright {
     font-size: 16px;

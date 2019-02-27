@@ -16,7 +16,7 @@ a, a:link, a:visited, a:focus {
     color: inherit;
 }
 
-button, a, div {
+a {
     transition: all 0.3s ease-in-out;
 }
 
@@ -65,18 +65,19 @@ img {
 
 .app-content {
   width: 100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  padding: 20px 0;
 }
 
-.discord-link {
+a.discord-link {
     padding: 10px 20px;
-    color: #2C2F33;
+    color: $gray-xmedium;
+    background: linear-gradient(to right, $green-dark 34%, $discord-blurple 65%);
+    background-size: 300% 100%;
+    background-position: left bottom;
     border-radius: 5px;
-    border: 1px solid;
+    transition: all 0.5s ease-in-out;
     &:hover {
-        background: #7289DA;
         color: white;
+        background-position: right bottom;
+        box-shadow: 2px 3px 4px 1px $green-dark;
     }
 }

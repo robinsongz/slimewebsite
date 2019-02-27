@@ -1,16 +1,31 @@
 
+/* LAYOUT */
+
+$navbar-height: 95px;
+$navbar-height-small: 62px;
 
 /* PADDING */
 
 $side-padding: 15px;
+$top-padding: 10px;
 $nav-padding: 18px;
 
 /* COLORS */
 
-$green-xdark: #0f743ccc;
 $green-dark: #1f7043;
+$green-xdark: #1f7043d1;
 
 $gray-xlight: #ffffffdc;
 $gray-xmedium: #dfdfdfdc;
 
-$sub-text-color: #3f3131ea;
+$sub-text-color: #eaeaeaea;
+
+$discord-blurple: #7289DA;
+$discord-greyple: #99AAB5;
+$discord-dark: #2C2F33;
+$discord-black: #23272A;
+
+/* MEDIA QUERIES */
+
+$max-medium: "only screen and (max-width: 750px)";
+$medium: "only screen and (min-width: 751px)";

@@ -7,20 +7,14 @@ const Navbar = () => {
   return (
     <div className="navbar-comp">
       <div className="main-link">
-        <NavLink to='/'>
+        <NavLink to="/">
           <h4>Slime Bot</h4>
         </NavLink>
       </div>
       <div className="navbar-links">
         <NavLink
-          to='/gettingstarted'
-          activeClassName="active-link">
-          <div className="nav-link">GETTING STARTED</div>
-        </NavLink>
-        <NavLink
-          to='/commands'
-          activeClassName="active-link">
-          <div className="nav-link">COMMANDS</div>
+          to="/documentation/gettingstarted">
+          <div className="nav-link">Get Started</div>
         </NavLink>
       </div>
     </div>

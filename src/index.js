@@ -1,24 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/index';
+import Navbar from './components/Navbar/index.jsx';
 import Footer from './components/Footer/index';
 import Routes from './Routes';
 import * as serviceWorker from './serviceWorker';
 import './index.scss';
 
 const Root = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename={process.env.PUBLIC_URL} onUpdate={() => window.scrollTo(0, 0)}>
     <div className="app-wrapper">
       <Navbar />
       <div className="app-content">
         <Switch>
-          <Route path={'/'} render={({ match }) => (
+          <Route path={process.env.PUBLIC_URL} render={({ match }) => (
             <Routes match={match} />
           )} />
         </Switch>
       </div>
-      
+
       <Footer />
     </div>
   </Router>
