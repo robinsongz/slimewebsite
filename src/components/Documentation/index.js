@@ -7,7 +7,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Sidenav from '../Sidenav/index.jsx';
+import Sidenav from '../Sidenav/index.js';
 
 import './index.scss';
 
