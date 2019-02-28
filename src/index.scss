@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Hind|Nanum+Gothic|Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=VT323|Cousine|Staatliches|Roboto');
 @import './variables.scss';
+
 html, body {
     height: 100vh;
     min-width: 320px;
@@ -8,8 +9,9 @@ html, body {
 body {
     margin: 0;
     background-color:#52ad7bbb;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 a, a:link, a:visited, a:focus {
     text-decoration: none;
     outline: none;
@@ -77,7 +79,7 @@ a.discord-link {
     width: 300px;
     height: 30px;
     padding: 10px 20px;
-    margin: 50px;
+    margin: 25px;
     color: $gray-xmedium;
     background: linear-gradient(to right, $green-dark 34%, $discord-blurple 65%);
     background-size: 300% 100%;
@@ -97,9 +99,6 @@ a h2 {
     align-items: center;
 }
 
-.button-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.description {
+    font-family: 'Staatliches', 'sans-serif';
 }

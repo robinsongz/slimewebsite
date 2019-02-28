@@ -12,15 +12,17 @@ class App extends Component {
             <h1 className="slime-heading">
               A DISCORD BOT FOR MAPLESTORY M
           </h1>
-          <h2>
-            Organize Expeditions
-          </h2>
-          <h2>
-            Exped, Guild Fort, & Banquet Reminders
-          </h2>
-          <h2>
-            Multiple Data on Command
-          </h2>
+          <div className='description'>
+            <h2>
+              Organize Expeditions
+            </h2>
+            <h2>
+              Exped, Guild Fort, & Banquet Reminders
+            </h2>
+            <h2>
+              Multiple Data on Command
+            </h2>
+          </div>
           </div>
           <div>
             <a
