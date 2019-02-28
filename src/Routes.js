@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import App from './components/App';
-import Documentation from './components/Documentation/index.jsx';
+import Documentation from './components/Documentation/index.js';
 
 const Routes = () => {
   return (
