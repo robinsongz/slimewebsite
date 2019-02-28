@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import GettingStarted from '../views/GettingStarted.jsx';
-import Expedition from '../views/Expedition.jsx';
-import Forge from '../views/Forge.jsx';
+import GettingStarted from '../views/GettingStarted.js';
+import Expedition from '../views/Expedition.js';
+import Forge from '../views/Forge.js';
 
 import {
   Switch,
