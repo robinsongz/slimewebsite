@@ -66,9 +66,18 @@ img {
 .app-content {
   width: 100%;
 }
+.app h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
 
 a.discord-link {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
     padding: 10px 20px;
+    margin: 50px;
     color: $gray-xmedium;
     background: linear-gradient(to right, $green-dark 34%, $discord-blurple 65%);
     background-size: 300% 100%;
@@ -80,4 +89,17 @@ a.discord-link {
         background-position: right bottom;
         box-shadow: 2px 3px 4px 1px $green-dark;
     }
+}
+
+a h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
