@@ -13,9 +13,7 @@ const Root = () => (
       <Navbar />
       <div className="app-content">
         <Switch>
-          <Route path="/" render={({ match }) => (
-            <Routes pathPrefix={match.url} />
-          )} />
+          <Route path="/" component={Routes} />
         </Switch>
       </div>
 
