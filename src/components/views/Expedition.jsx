@@ -22,7 +22,7 @@ class Expedition extends Component {
           <div className="note">
             !team command will only be available in this channel
           </div>
-          <img alt="checkInChannel" src={require('/Pictures/checkin example.png')} />
+          <img alt="checkInChannel" src={require('../Pictures/checkin example.png')} />
         </div>
 
 
