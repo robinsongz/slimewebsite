@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import './index.scss';
 
 const Root = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <div className="app-wrapper">
       <Navbar />
       <div className="app-content">
