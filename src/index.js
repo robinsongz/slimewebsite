@@ -8,14 +8,12 @@ import * as serviceWorker from './serviceWorker';
 import './index.scss';
 
 const Root = () => (
-  <Router basename={process.env.PUBLIC_URL} onUpdate={() => window.scrollTo(0, 0)}>
+  <Router basename={process.env.PUBLIC_URL}>
     <div className="app-wrapper">
       <Navbar />
       <div className="app-content">
         <Switch>
-          <Route path="/" render={({ match }) => (
-            <Routes pathPrefix={match.url} />
-          )} />
+          <Route path="/" component={Routes} />
         </Switch>
       </div>
 
