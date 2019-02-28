@@ -12,12 +12,12 @@ class Forge extends Component {
 
         
         <h3>
-          !fuse [Fuse Item] [Fuse Material] [Fuse Material Cost]
+          Fusing Cost Calculator
         </h3>
         <div className="section">
           <div className="note">
             
-            Fusing Cost Calculator
+          !fuse [Fuse Item] [Fuse Material] [Fuse Material Cost]
           </div>
           <div className="picture">
             <img alt='fusing cost calculator' src={require('../Pictures/fusing cost calc example.png')} />
@@ -25,11 +25,11 @@ class Forge extends Component {
         </div>
         
         <h3>
-          !fuse treasure
+        Treasure Pulls Fusing Cost
         </h3>
         <div className="section">
           <div className="note">
-            Treasure Pulls Fusing Cost
+            !fuse treasure
           </div>
           <div className="picture">
             <img alt='treasure pulls' src={require('../Pictures/treasure example.png')} />
@@ -37,11 +37,11 @@ class Forge extends Component {
         </div>
         
         <h3>
-          !fuse data
+          General Fusing Data
         </h3>
         <div className="section">
           <div className="note">      
-            General Fusing Data
+            !fuse data
           </div>
           <div className="picture">
             <img alt='fusing data' src={require('../Pictures/fusing data example.png')} />
@@ -49,12 +49,11 @@ class Forge extends Component {
         </div>
         
         <h3>
-          !jewel [color]
+          Jewel Data
         </h3>
         <div className="section">   
           <div className="note">
-          
-            Jewel Data
+          !jewel [color]
           </div>
           <div className="picture">
             <img alt='jewel example' src={require('../Pictures/jewel example.png')} />
@@ -63,13 +62,13 @@ class Forge extends Component {
 
         
         <h3>
-          !jewel [color] setbonus
+          Jewel Set Bonus Data
         </h3>
 
         <div className="section">
           <div className="note">
             
-            Jewel Set Bonus Data
+          !jewel [color] setbonus
           </div>
           <div className="picture">
             <img alt='team add' src={require('../Pictures/jewel setbonus exmaple.png')}/>

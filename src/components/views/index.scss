@@ -1,16 +1,21 @@
 @import '../../variables';
+@import url('https://fonts.googleapis.com/css?family=Raleway|Cousine|Staatliches|Roboto');
 
 .view-comp {
   padding-top: $top-padding;
   > h2 {
     padding: $top-padding $side-padding;
     letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
   }
   > h3 {
-    background: $discord-greyple;
-    padding: $side-padding;
+    background: $discord-blurple;
+    border: 1px solid black;
+    padding: $top-padding $side-padding;
+    margin: $top-padding 0;
     letter-spacing: 1px;
     margin: 5px 0;
+    font-family: 'Raleway', sans-serif;
   }
   .note {
     border: 1px solid black;

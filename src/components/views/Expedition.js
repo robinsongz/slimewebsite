@@ -9,7 +9,6 @@ class Expedition extends Component {
       
       <div className="expedition view-comp">
 
-
         <h2>
           Organizing Expeditions
         </h2>
