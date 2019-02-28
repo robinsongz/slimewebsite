@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "./static/media/slimebossexample.d1393632.png"
   },
   {
-    "revision": "59ba8ea08cc65f748fcb",
+    "revision": "e80c3fd79cdecf8d8c8e",
     "url": "./static/css/main.bc2225ff.chunk.css"
   },
   {
-    "revision": "5540df14ed53f1e6afd1",
-    "url": "./static/js/1.5540df14.chunk.js"
+    "revision": "df5e853331aba913e61e",
+    "url": "./static/js/1.df5e8533.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "./static/media/adminRole example.ab399aa0.png"
   },
   {
-    "revision": "59ba8ea08cc65f748fcb",
-    "url": "./static/js/main.59ba8ea0.chunk.js"
+    "revision": "e80c3fd79cdecf8d8c8e",
+    "url": "./static/js/main.e80c3fd7.chunk.js"
   },
   {
     "revision": "df73a5e153a714274640f3898dc61437",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "./static/media/jbossforge_icon_256px.4b7521bb.png"
   },
   {
-    "revision": "b3805abc2f0b28fd738e04af2a5af4f2",
+    "revision": "a7d1c601c8eca666f18d3da6046d98ff",
     "url": "./index.html"
   }
 ];

@@ -1,9 +1,9 @@
 {
   "main.css": "./static/css/main.bc2225ff.chunk.css",
-  "main.js": "./static/js/main.59ba8ea0.chunk.js",
-  "main.js.map": "./static/js/main.59ba8ea0.chunk.js.map",
-  "static/js/1.5540df14.chunk.js": "./static/js/1.5540df14.chunk.js",
-  "static/js/1.5540df14.chunk.js.map": "./static/js/1.5540df14.chunk.js.map",
+  "main.js": "./static/js/main.e80c3fd7.chunk.js",
+  "main.js.map": "./static/js/main.e80c3fd7.chunk.js.map",
+  "static/js/1.df5e8533.chunk.js": "./static/js/1.df5e8533.chunk.js",
+  "static/js/1.df5e8533.chunk.js.map": "./static/js/1.df5e8533.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
   "static/media/treasure example.png": "./static/media/treasure example.32037269.png",
@@ -32,6 +32,6 @@
   "static/media/jbossforge_icon_256px.png": "./static/media/jbossforge_icon_256px.4b7521bb.png",
   "static/css/main.bc2225ff.chunk.css.map": "./static/css/main.bc2225ff.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.7694dcacf941a7f668c97b03dd6f4ff1.js": "./precache-manifest.7694dcacf941a7f668c97b03dd6f4ff1.js",
+  "precache-manifest.22aabc87d17112ffaa41e3fb054c5c4a.js": "./precache-manifest.22aabc87d17112ffaa41e3fb054c5c4a.js",
   "service-worker.js": "./service-worker.js"
 }
