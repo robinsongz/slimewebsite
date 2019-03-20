@@ -24,18 +24,15 @@ class App extends Component {
             </h2>
           </div>
           </div>
-          <div>
+          
             <a
               href='https://discordapp.com/oauth2/authorize?client_id=502644283329871872&scope=bot'
               target='blank'
               className="discord-link"
             >
-            <h2>
-              ADD TO YOUR SERVER
-            </h2>
-            
+            Add to your server
             </a>
-          </div>
+          
         </div>
     )
   }
