@@ -73,7 +73,10 @@ img {
     justify-content: center;
     margin: 2px;
 }
-
+.button-container {
+    @include flex-center;
+    flex-wrap: wrap;
+}
 .discord-link:link, .discord-link:visited {
     text-transform: uppercase;
     text-align: center;
@@ -100,14 +103,17 @@ img {
 
 .card-container {
     @include flex-center;
-    padding: 2px;
-    max-width: 55%;
+    flex-wrap: wrap;
+    width: 65%
 }
-
 .card {
     @include flex-center;
     flex-direction: column;
     margin: 20px;
+    width: 25%;
+    @media #{$max-medium} {
+        width: 100%;
+      }
 }
 
 .card-title {

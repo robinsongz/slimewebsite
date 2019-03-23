@@ -44,7 +44,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className='button-container'>
             <a
               href='https://discordapp.com/oauth2/authorize?client_id=502644283329871872&scope=bot'
               target='blank'
