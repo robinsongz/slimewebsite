@@ -122,11 +122,10 @@ img {
     box-shadow: 0 5px 10px rgba(black, .15);
     padding: 25px;
     border-radius: 5px;
+    transition: transform .3s;
 
     &:hover {
-        transform: translateY(-5px);
-        cursor: pointer;
-        box-shadow: 0 10px 20px rgba(black, .15);
+        transform: translateY(-5px) scale(1.03);
     }
     @media #{$max-medium} {
         width: 100vh;
