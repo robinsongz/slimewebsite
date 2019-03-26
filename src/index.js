@@ -4,8 +4,13 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/index.js';
 import Footer from './components/Footer/index';
 import Routes from './Routes';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUsers, faStopwatch, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+
 import * as serviceWorker from './serviceWorker';
 import './index.scss';
+
+library.add(faUsers,faStopwatch,faInfoCircle);
 
 const Root = () => (
   <Router basename={process.env.PUBLIC_URL}>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 class App extends Component {
   render() {
     return (
@@ -16,31 +18,38 @@ class App extends Component {
           </div>
           <div className='card-container'>
             <div className='card'>
+              <div className='card-img'>
+                <FontAwesomeIcon icon='users' />
+              </div>
               <div className='card-title'>
                 Organize Expeditions
               </div>
               <div className='card-description'>
-                Check-in, check-out, add, remove, swap, mention members to simplify and enhance your expedition experience.
+                Simplify and enhance your expedition experience.
               </div>
             </div>
 
             <div className='card'>
-              
+              <div className='card-img'>
+                <FontAwesomeIcon icon='stopwatch' />
+              </div>
               <div className='card-title'>
                 Daily Reminders
               </div>
               <div className='card-description'>
-                Daily Expedition and Guild Fort reminders that go off 15 minutes prior. Customize Banquet reminder to whatever time you want.
+                Daily reminders for expeditions, guild fort, & banquet.
               </div>
             </div>
 
             <div className='card'>
-              
+              <div className='card-img'>
+                <FontAwesomeIcon icon='info-circle' />
+              </div>
               <div className='card-title'>
                 Data On Command
               </div>
               <div className='card-description'>
-                PBA ranges, weapon & armor potentials, fusing costs, treasure pull costs, jewel data, and more just a command away!
+                PBA ranges, fusing costs, jewel data, & more!
               </div>
             </div>
           </div>

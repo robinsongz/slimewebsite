@@ -106,19 +106,35 @@ img {
     flex-wrap: wrap;
     width: 65%
 }
+
 .card {
     @include flex-center;
     flex-direction: column;
     margin: 20px;
-    width: 25%;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(white, 0.6);
+    box-shadow: 0 5px 10px rgba(black, .15);
+    padding: 25px;
+    border-radius: 5px;
+
+    &:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(black, .15);
+    }
     @media #{$max-medium} {
-        width: 100%;
+        width: 100vh;
       }
 }
 
+.card-img {
+    font-size: 30px;
+    padding: 5px;
+}
 .card-title {
     @include flex-center;
-    margin: 30px;
+    margin: 20px;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
@@ -129,4 +145,5 @@ img {
     @include flex-center;
     text-align: center;
     line-height: 25px;
+    font-size: 15px;
 }
