@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Cousine|Staatliches|Roboto');
 @import './variables.scss';
+@import './animations.scss';
 
 
 html, body {
@@ -104,7 +105,11 @@ img {
 .card-container {
     @include flex-center;
     flex-wrap: wrap;
-    width: 65%
+    width: 65%;
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
 }
 
 .card {
