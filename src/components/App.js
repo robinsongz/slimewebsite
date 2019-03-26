@@ -25,7 +25,7 @@ class App extends Component {
                 Organize Expeditions
               </div>
               <div className='card-description'>
-                Simplify and enhance your expedition experience.
+                Simplify and enhance your expedition experience
               </div>
             </div>
 
@@ -37,7 +37,7 @@ class App extends Component {
                 Daily Reminders
               </div>
               <div className='card-description'>
-                Daily reminders for expeditions, guild fort, & banquet.
+                Expedition, guild fort, and banquet reminders
               </div>
             </div>
 
@@ -49,7 +49,7 @@ class App extends Component {
                 Data On Command
               </div>
               <div className='card-description'>
-                PBA ranges, fusing costs, jewel data, & more!
+                PBA ranges, fusing costs, jewel data, & more
               </div>
             </div>
           </div>
