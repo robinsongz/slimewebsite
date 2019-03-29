@@ -7,35 +7,136 @@
   left: 0;
   display: flex;
   z-index: 10;
-  background: $green-xdark;
+  background: $gray-xdark;
   padding: $nav-padding $side-padding;
   justify-content: space-between;
-  box-shadow: 0 2px 6px $green-xdark;
+
   .main-link {
     font-size: 40px;
     margin: 10px;
-    color: white;
+    color: $gray-xlight-2;
     font-weight: bold;
+    letter-spacing: 1px;
     @media #{$max-medium} {
       font-size: 22px;
     }
   }
   
   .navbar-links {
-    font-size: 20px;
     display: flex;
     align-items: center;
     color: white;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+    @media #{$max-medium} {
+      display: none;
+    }
     .nav-link {
       padding-left: 18px;
       text-align: right;
       transition: all 0.1s ease-in-out;
+      text-transform: uppercase;
+      padding: 10px 30px;
       &:hover {
         color: $green-primary;
+      }
+
+      &__forge {
+        font-size: 15px;
+      }
+
+      &__expedition {
+        font-size: 15px;
+      }
+
+      &__getstarted {
+        font-size: 20px;
+        border: solid 1px;
+        border-radius: 50px;
+        text-align: center;
+
+        &:hover {
+          background-color: $green-primary; 
+          color: $gray-xdark;
+        }
       }
     }
     @media #{$max-medium} {
       font-size: 14px;
+    }
+  }
+
+  .mobile-nav {
+    display: none;
+
+    @media #{$max-medium} {
+      display: block;
+    }
+
+    
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .collapse {
+    display: none !important;
+  }
+
+  .mobile-icon {
+    background: $gray-xdark;
+    font-size: 30px;
+    margin: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+
+
+    &:hover {
+      color: $green-primary;
+    }
+  }
+
+  .mobile-navbar-links {
+    text-align: right;
+    float: right;
+    border-top: solid white 1px;
+
+    .mobile-nav-link {
+      color: white;
+      text-align: right;
+      text-transform: uppercase;
+      padding: 10px;
+      &:hover {
+        color: $green-primary;
+      }
+
+      &__forge {
+        font-size: 15px;
+      }
+
+      &__expedition {
+        font-size: 15px;
+
+      }
+
+      &__getstarted {
+        font-size: 15px;
+        border: solid 1px;
+        border-radius: 50px;
+        text-align: center;
+
+        &:hover {
+          background-color: $green-primary; 
+          color: $gray-xdark;
+          font-weight: bold;
+        }
+      }
     }
   }
 }

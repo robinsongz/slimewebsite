@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Cousine|Staatliches|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway|Cousine|Staatliches|Roboto');
 @import './variables.scss';
 @import './animations.scss';
 
@@ -49,7 +49,10 @@ img {
 }
 
 .slime-heading {
-    color: white;
+    color: $gray-xdark;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -82,19 +85,18 @@ img {
     text-transform: uppercase;
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: $gray-xlight-2;
     display: inline-block;
     width: 300px;
     padding: 15px 40px;
     margin: 25px;
     background: $green-xdark;
-    border-style: solid;
-    border-color: $green-xdark;
+    border: solid 1px $gray-xlight-2;
     transition: all 0.2s;
     &:hover {
-        background: $discord-blurple;
+        background: $gray-xdark;
         color: white;
-        border-color: $discord-blurple;
+        border-color: $gray-xdark;
     };
 }
 

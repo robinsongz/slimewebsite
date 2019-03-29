@@ -3,28 +3,38 @@
 
 .view-comp {
   padding-top: $top-padding;
+  text-align: center;
+  margin-bottom: 20px;
   > h2 {
-    padding: $top-padding $side-padding;
+    padding: 20px $side-padding;
+    margin: 20px auto;
+    background: $gray-xdark;
     letter-spacing: 3px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: $gray-xlight-2;
+    width: 70%;
+    text-align: center;
+    word-wrap: break-word;
   }
   > h3 {
-    background: $discord-blurple;
-    border: 1px solid black;
+    background: $gray-xdark;
+    color: $gray-xlight-2;
+    border-radius: 100px;
     padding: $top-padding $side-padding;
-    margin: $top-padding 0;
+    margin: $top-padding auto;
     letter-spacing: 1px;
-    margin: 5px 0;
-    font-family: 'Raleway', sans-serif;
-    max-width: 700px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
   }
   .note {
-    border: 1px solid black;
-    width: 80%;
+    border-bottom: 1px solid black;
+    width: 50%;
     padding: $top-padding $side-padding;
-    margin: $top-padding 0;
-    background: $discord-black;
-    max-width: 600px;
+    margin: $top-padding auto;
+    text-align: center;
     @media #{$max-medium} {
       width: 100%;
     }
@@ -35,8 +45,8 @@
     img {      
       margin: 5px 0;
       width: 80%;
-      min-width: 400px;
-      max-width: 600px;
+      min-width: 300px;
+      max-width: 500px;
       &.img-small {
         width: 40%;
         max-width: 300px;

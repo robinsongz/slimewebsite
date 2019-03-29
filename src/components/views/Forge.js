@@ -7,7 +7,7 @@ class Forge extends Component {
       <div className="forge view-comp">
 
         <h2>
-          Forge Commands
+          Data Commands
         </h2>
 
         
@@ -15,10 +15,7 @@ class Forge extends Component {
           Fusing Cost Calculator
         </h3>
         <div className="section">
-          <div className="note">
-            
-          !fuse [Fuse Item] [Fuse Material] [Fuse Material Cost]
-          </div>
+         
           <div className="picture">
             <img alt='fusing cost calculator' src={require('../Pictures/fusing cost calc example.png')} />
           </div>
@@ -28,9 +25,7 @@ class Forge extends Component {
         Treasure Pulls Fusing Cost
         </h3>
         <div className="section">
-          <div className="note">
-            !fuse treasure
-          </div>
+      
           <div className="picture">
             <img alt='treasure pulls' src={require('../Pictures/treasure example.png')} />
           </div>
@@ -52,9 +47,7 @@ class Forge extends Component {
           Jewel Data
         </h3>
         <div className="section">   
-          <div className="note">
-          !jewel [color]
-          </div>
+          
           <div className="picture">
             <img alt='jewel example' src={require('../Pictures/jewel example.png')} />
           </div>
@@ -66,10 +59,7 @@ class Forge extends Component {
         </h3>
 
         <div className="section">
-          <div className="note">
-            
-          !jewel [color] setbonus
-          </div>
+          
           <div className="picture">
             <img alt='team add' src={require('../Pictures/jewel setbonus exmaple.png')}/>
           </div>

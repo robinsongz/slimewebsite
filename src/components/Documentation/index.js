@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import GettingStarted from '../views/GettingStarted.js';
 import Expedition from '../views/Expedition.js';
 import Forge from '../views/Forge.js';
+import Reminders from '../views/Reminders.js';
 
 import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Sidenav from '../Sidenav/index.js';
+
 
 import './index.scss';
 
@@ -20,16 +21,15 @@ export class Documentation extends Component {
   render() {
     return (
       <div className="documentation-comp">
-        <div className="sidenav-wrapper">
-          <Sidenav />
-        </div>
         <div className="documentation-content">
           <Switch>
             <Route path="/documentation/gettingstarted"
               component={GettingStarted} />
-           <Route path="/documentation/expedition"
+            <Route path="/documentation/expedition"
               component={Expedition} />
-           <Route path="/documentation/forge"
+            <Route path="/documentation/reminders" 
+              component={Reminders} />
+            <Route path="/documentation/forge"
               component={Forge} />
           </Switch>
         </div>
