@@ -12,6 +12,7 @@ body {
     margin: 0;
     background-color: $green-primary-dark;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 a, a:link, a:visited, a:focus {
