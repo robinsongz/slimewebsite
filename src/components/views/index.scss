@@ -2,64 +2,78 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Cousine|Staatliches|Roboto');
 
 .view-comp {
-  padding-top: $top-padding;
-  text-align: center;
   margin-bottom: 20px;
-  > h2 {
+  background-color: $green-primary-dark;
+  width: 100%;
+  @include flex-center;
+  flex-direction: column;
+
+  &__title {
     padding: 20px $side-padding;
-    margin: 20px auto;
-    background: $gray-xdark;
     letter-spacing: 3px;
-    font-size: 30px;
+    margin: 10px 5px;
+    font-size: 70px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     color: $gray-xlight-2;
-    width: 70%;
-    text-align: center;
-    word-wrap: break-word;
-  }
-  > h3 {
-    background: $gray-xdark;
-    color: $gray-xlight-2;
-    border-radius: 100px;
-    padding: $top-padding $side-padding;
-    margin: $top-padding auto;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    width: 50%;
-  }
-  .note {
-    border-bottom: 1px solid black;
-    width: 50%;
-    padding: $top-padding $side-padding;
-    margin: $top-padding auto;
-    text-align: center;
+    width: 80%;
+    text-align: left;
+
     @media #{$max-medium} {
       width: 100%;
+      min-width: 250px;
+      font-size: 50px;
+      text-align: center;
     }
   }
-  .section {
-    padding: 0 $side-padding;
-    max-width: 100%;
-    img {      
-      margin: 5px 0;
+
+  &__section {
+    @include flex-center;
+    flex-direction: column;
+    width: 90%;
+
+    &--title {
+      border-bottom: 1px solid $gray-xlight-2;
+      color: $gray-xlight-2;
+      padding: $top-padding $side-padding;
+      margin: $top-padding 10px;
+      letter-spacing: 1px;
+      text-align: left;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif;
       width: 80%;
-      min-width: 300px;
-      max-width: 500px;
-      &.img-small {
-        width: 40%;
-        max-width: 300px;
-      }
     }
-    > div {
-      color: $sub-text-color;
-    }
-    @media #{$max-medium} {
-      img {
+
+
+    &--img {
+      padding: $top-padding $side-padding;
+      margin: $top-padding 10px;
+      width: 80%;
+      text-align: left;
+
+      @media #{$max-medium} {
         width: 100%;
         min-width: 250px;
       }
+
+      &-small {
+        width: 100%;
+        max-width: 300px;
+        
+      }
     }
-  }
+
+    &--note {
+      color: $gray-xdark;
+      font-weight: 700;
+      width: 80%;
+      padding: $top-padding $side-padding;
+
+      text-align: left;
+      @media #{$max-medium} {
+        width: 70%;
+      }
+    }
+  } 
 }

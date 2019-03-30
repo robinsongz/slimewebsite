@@ -5,12 +5,12 @@ import Navbar from './components/Navbar/index.js';
 import Footer from './components/Footer/index';
 import Routes from './Routes';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUsers, faStopwatch, faInfoCircle, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faStopwatch, faInfoCircle, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 import * as serviceWorker from './serviceWorker';
 import './index.scss';
 
-library.add(faUsers,faStopwatch,faInfoCircle,faBars);
+library.add(faUsers,faStopwatch,faInfoCircle,faBars,faTimes);
 
 const Root = () => (
   <Router basename={process.env.PUBLIC_URL}>

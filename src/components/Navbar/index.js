@@ -33,11 +33,11 @@ class Navbar extends Component {
           </NavLink>
           <NavLink
             to="/documentation/reminders"> 
-            <div className="nav-link nav-link__forge">reminders</div>
+            <div className="nav-link nav-link__reminders">reminders</div>
           </NavLink>
           <NavLink
-            to="/documentation/forge"> 
-            <div className="nav-link nav-link__forge">data</div>
+            to="/documentation/data"> 
+            <div className="nav-link nav-link__data">data</div>
           </NavLink>
           <NavLink
             to="/documentation/gettingstarted">
@@ -48,29 +48,40 @@ class Navbar extends Component {
         <div className='mobile-nav'>
 
             <button 
-              className='mobile-icon' 
+              className='mobile-nav__icon--bars' 
               onClick={this.navToggle}>
               <FontAwesomeIcon icon='bars' />
             </button>
-          <div className={navToggle ? 'show' : 'collapse'}>
-            <div className='mobile-navbar-links'>
+          <div className={navToggle ? 'show mobile-nav__content' : 'collapse mobile-nav__content'}>
+
+            <button 
+              className='mobile-nav__icon--x' 
+              onClick={this.navToggle}>
+              <FontAwesomeIcon icon='times' />
+            </button>
+            <div className='mobile-nav__links'>
               <NavLink
-                to="/documentation/expedition">
-                <div className="mobile-nav-link mobile-nav-link__exped">expedition</div>
+                to="/documentation/expedition"
+                onClick={this.navToggle}>
+                <div className="mobile-nav__link mobile-nav__link--exped">expedition</div>
               </NavLink>
               <NavLink
-                to="/documentation/reminders"> 
-                <div className="mobile-nav-link mobile-nav-link__forge">reminders</div>
+                to="/documentation/reminders"
+                onClick={this.navToggle}> 
+                <div className="mobile-nav__link mobile-nav__link--reminders">reminders</div>
               </NavLink>
               <NavLink
-                to="/documentation/forge"> 
-                <div className="mobile-nav-link mobile-nav-link__forge">data</div>
+                to="/documentation/data"
+                onClick={this.navToggle}> 
+                <div className="mobile-nav__link mobile-nav__link--data">data</div>
               </NavLink>
               <NavLink
-                to="/documentation/gettingstarted">
-                <div className="mobile-nav-link mobile-nav-link__getstarted">Get Started</div>
+                to="/documentation/gettingstarted"
+                onClick={this.navToggle}>
+                <div className="mobile-nav__link mobile-nav__link--getstarted">Getting Started</div>
               </NavLink>
-          </div>
+            </div>
+            
           </div>
         </div>
       </div>

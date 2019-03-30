@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GettingStarted from '../views/GettingStarted.js';
 import Expedition from '../views/Expedition.js';
-import Forge from '../views/Forge.js';
+import Data from '../views/Data.js';
 import Reminders from '../views/Reminders.js';
 
 import {
@@ -29,8 +29,8 @@ export class Documentation extends Component {
               component={Expedition} />
             <Route path="/documentation/reminders" 
               component={Reminders} />
-            <Route path="/documentation/forge"
-              component={Forge} />
+            <Route path="/documentation/data"
+              component={Data} />
           </Switch>
         </div>
       </div>
