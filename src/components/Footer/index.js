@@ -11,6 +11,9 @@ const Footer = () => (
             <a href='https://github.com/robinsongz' target='blank'>
                 <div>Github</div>
             </a>
+            <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=62784SLG9W6M2&currency_code=USD&source=url' target='blank'>
+                <div>Donate</div>
+            </a>
         </div>
     </div>
 
