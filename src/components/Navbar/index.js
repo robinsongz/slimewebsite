@@ -28,19 +28,19 @@ class Navbar extends Component {
         </div>
         <div className="navbar-links">
         <NavLink
-            to="/documentation/expedition">
+            to="/expedition">
             <div className="nav-link nav-link__exped">expedition</div>
           </NavLink>
           <NavLink
-            to="/documentation/reminders"> 
+            to="/reminders"> 
             <div className="nav-link nav-link__reminders">reminders</div>
           </NavLink>
           <NavLink
-            to="/documentation/data"> 
+            to="/data"> 
             <div className="nav-link nav-link__data">data</div>
           </NavLink>
           <NavLink
-            to="/documentation/gettingstarted">
+            to="/gettingstarted">
             <div className="nav-link nav-link__getstarted">Get Started</div>
           </NavLink>
         </div>
@@ -61,22 +61,22 @@ class Navbar extends Component {
             </button>
             <div className='mobile-nav__links'>
               <NavLink
-                to="/documentation/expedition"
+                to="/expedition"
                 onClick={this.navToggle}>
                 <div className="mobile-nav__link mobile-nav__link--exped">expedition</div>
               </NavLink>
               <NavLink
-                to="/documentation/reminders"
+                to="/reminders"
                 onClick={this.navToggle}> 
                 <div className="mobile-nav__link mobile-nav__link--reminders">reminders</div>
               </NavLink>
               <NavLink
-                to="/documentation/data"
+                to="/data"
                 onClick={this.navToggle}> 
                 <div className="mobile-nav__link mobile-nav__link--data">data</div>
               </NavLink>
               <NavLink
-                to="/documentation/gettingstarted"
+                to="/gettingstarted"
                 onClick={this.navToggle}>
                 <div className="mobile-nav__link mobile-nav__link--getstarted">Getting Started</div>
               </NavLink>

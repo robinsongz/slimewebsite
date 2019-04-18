@@ -9,11 +9,13 @@ import { faUsers, faStopwatch, faInfoCircle, faBars, faTimes } from '@fortawesom
 
 import * as serviceWorker from './serviceWorker';
 import './index.scss';
+import ScrollToTop from './scrollToTop';
 
 library.add(faUsers,faStopwatch,faInfoCircle,faBars,faTimes);
 
 const Root = () => (
   <Router basename={process.env.PUBLIC_URL}>
+    <ScrollToTop>
     <div className="app-wrapper">
       <Navbar />
       <div className="app-content">
@@ -24,6 +26,7 @@ const Root = () => (
 
       <Footer />
     </div>
+    </ScrollToTop>
   </Router>
 )
 

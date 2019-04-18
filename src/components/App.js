@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { NavLink } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
@@ -17,19 +17,26 @@ class App extends Component {
             
           </div>
           <div className='card-container'>
-            <div className='card'>
-              <div className='card-img'>
-                <FontAwesomeIcon icon='users' />
-              </div>
-              <div className='card-title'>
-                Organize Expeditions
-              </div>
-              <div className='card-description'>
-                Simplify and enhance your expedition experience
-              </div>
-            </div>
+            
+              <NavLink
+                to="/expedition" className='card'>
+                
+                  <div className='card-img'>
+                    <FontAwesomeIcon icon='users' />
+                  </div>
+                  <div className='card-title'>
+                    Organize Expeditions
+                  </div>
+                  <div className='card-description'>
+                    Simplify and enhance your expedition experience
+                  </div>
+              </NavLink>
+              
+          
 
-            <div className='card'>
+            <NavLink
+            to="/reminders" className='card'>
+            
               <div className='card-img'>
                 <FontAwesomeIcon icon='stopwatch' />
               </div>
@@ -39,9 +46,12 @@ class App extends Component {
               <div className='card-description'>
                 Expedition, guild fort, and banquet reminders
               </div>
-            </div>
+            </NavLink>
+            
 
-            <div className='card'>
+            <NavLink
+            to="/data" className='card'>
+           
               <div className='card-img'>
                 <FontAwesomeIcon icon='info-circle' />
               </div>
@@ -51,7 +61,7 @@ class App extends Component {
               <div className='card-description'>
                 PBA ranges, fusing costs, jewel data, & more
               </div>
-            </div>
+            </NavLink>
           </div>
           <div className='button-container'>
             <a
