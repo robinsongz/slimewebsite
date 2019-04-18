@@ -70,8 +70,7 @@ class Expedition extends Component {
             Add members manually to team (admin only)
           </h3>
           <div className="view-comp__section--img">
-            
-            <img alt='team add' src={require('../Pictures/team add exmaple.png')} />
+            <img alt='team add' src={require('../Pictures/team add exmaple.png')} className='img' />
           </div>
         </div>
 
@@ -80,7 +79,7 @@ class Expedition extends Component {
           Mention entire team
         </h3>
         <div className="view-comp__section--img">
-          <img alt='team mention' src={require('../Pictures/team mention example.png')} />
+          <img alt='team mention' src={require('../Pictures/teamMention.png')} />
         </div>
         <div className="view-comp__section--note">
           <div className="note">For all commands, type !team help</div>

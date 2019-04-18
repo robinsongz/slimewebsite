@@ -24,6 +24,19 @@ class Reminders extends Component {
         <div className='view-comp__section--img'>
           <img alt='expoChannel example' src={require('../Pictures/expochannel example.png')} />
         </div>
+        <div className="view-comp__section--note">
+          Setting day expedition reminder time 
+        </div>
+        <div className='view-comp__section--img'>
+          <img alt='expoChannel example' src={require('../Pictures/expoTime1.png')} />
+        </div>
+
+        <div className="view-comp__section--note">
+          Setting night expedition reminder time 
+        </div>
+        <div className='view-comp__section--img'>
+          <img alt='expoChannel example' src={require('../Pictures/expoTime2.png')} />
+        </div>
       </div>
         
       <div className='view-comp__section'>
@@ -33,11 +46,18 @@ class Reminders extends Component {
         
      
         <div className="view-comp__section--note">
-          Changing guild fort reminder message
+          Setting guild fort reminder message
         </div>
 
         <div className='view-comp__section--img'>
           <img alt='keys' src={require('../Pictures/guild fort example.png')}/>
+        </div>   
+        <div className="view-comp__section--note">
+          Setting guild fort reminder time
+        </div>
+
+        <div className='view-comp__section--img'>
+          <img alt='keys' src={require('../Pictures/fortTime.png')}/>
         </div>   
       </div>
 
@@ -49,12 +69,40 @@ class Reminders extends Component {
 
          
         <div className="view-comp__section--note">Changing banquet reminder time. </div>
-        <div className="view-comp__section--note">banquetTime is formatted by [minute][hour] in server time </div>
-        <div className="view-comp__section--note">00 19 = 7:00pm server time</div>
           
         <div className="view-comp__section--img">
-          <img alt='keys' src={require('../Pictures/banquetTime example.png')} />
+          <img alt='keys' src={require('../Pictures/banquetTime.png')} />
         </div>
+      </div>
+
+      <div className='view-comp__section'>
+        <h3 className="view-comp__section--title">
+          Changing your region
+        </h3>
+
+        <div className="view-comp__section--note">
+        Regions: NA, EU, ASIA
+        </div>
+
+        <div className="view-comp__section--img">
+          <img alt='keys' src={require('../Pictures/region.png')} />
+        </div>
+      </div>
+
+      <div className='view-comp__section'>
+        <h3 className="view-comp__section--title">
+          Notes
+        </h3>
+
+        <div className="view-comp__section--note">
+        Times are all set to Maplestory M's server time.
+        </div>
+
+        <div className="view-comp__section--note">
+        Times are all set in Military Time. IE 17 00 = 5:00pm
+        </div>
+
+        
       </div>
     </div>
 

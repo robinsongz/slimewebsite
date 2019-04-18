@@ -45,12 +45,27 @@
       width: 80%;
     }
 
-
+    &--config {
+      color: black;
+      text-align: left;
+      padding: 8px;
+      
+      > h4 {
+        display: inline;
+        font-size: 20px;
+        color: $gray-xlight-2;
+      }
+      > p {
+        display: inline;
+      }
+    }
+    
     &--img {
       padding: $top-padding $side-padding;
       margin: $top-padding 10px;
       width: 80%;
       text-align: left;
+
 
       @media #{$max-medium} {
         width: 100%;
